@@ -1,0 +1,171 @@
+/* Your styles here */
+/************************************* GENERAL SETTINGS ******************************/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41;
+    padding: 15px;   
+}
+
+h1, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #25a2c3;
+    line-height: 1.5;  
+    margin: 0;
+    text-align: center;
+    padding-top: 1em;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div {
+    width: 100%;
+}
+
+*{box-sizing: border-box;}
+
+/************************************* HEADER******************************/
+
+#logo-container {
+    background-color: black;
+    text-align: center;
+}
+
+#logo {
+    text-align: center;
+    padding: 30px;
+    max-width: 50%;
+
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+#corso {
+    text-align: center;
+    background-image: url(../images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+button[type="submit"]{
+    margin: 20px;
+    padding: 0.8em 2em;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #f04c2f;
+    border: 0px;
+}
+
+button[type="submit"]:hover {
+    color: black;
+    cursor: pointer;
+}
+/************************************* MAIN CONTENT ******************************/
+
+#notebook {
+    border-radius: 50%;  
+    display: block;
+    height: auto;
+    margin: 2em auto 1.5em auto;
+    max-width: 80%;
+}
+
+#orange-box {
+   background-color: #e22d0e; 
+   color: white;
+   height: 14em;
+   margin-bottom: 2.3em;
+}
+
+ h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 1.5;  
+    text-align: center;
+    color: white;
+    margin-top: 0.8em;
+    padding: 0.8em;
+    padding-top: 1.7em;
+}
+
+q {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+h2 + p + p {
+    margin-top: 1em;
+}
+
+h2 + p + p + p {
+    font-size: 0.7rem;
+}
+
+/************************************* MAIN CONTENT/SECTION ******************************/
+
+.boxes {
+    display: block;
+    border: 1px solid #dee1e3;
+    border-radius: 1%;
+    height: auto;
+    width: 90%;
+    margin: 0 auto 1.5em auto;
+}
+
+
+.boxes p {
+    padding: 0.6em;
+    margin-bottom: 1.4em;
+}
+
+/************************************* FOOTER ******************************/
+
+footer {
+    background-color: #25a2c3;
+    padding-bottom: 5em;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 1.5;  
+    text-align: center;
+    color: white;
+    padding: 0.8em;
+}
+
+hr {
+    width: 8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+span {
+    display: block;
+    text-align: center;
+    color: #c8e7f0;
+}
+
+span a {
+    color: #c8e7f0;
+}

@@ -1,0 +1,201 @@
+/* Your styles here */
+/************************************* GENERAL SETTINGS ******************************/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41;
+    padding: 15px;   
+}
+    
+    
+    /* provato di tutto e rivisto la soluzione del giorno prima
+       non riesco a togliere questo padding che viene visualizzato...
+       se lo rimuovo si vede perfetto ma vado fuori traccia...*/   
+
+       
+h1, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #25a2c3;
+    line-height: 1.5;  
+    margin: 0;
+    padding-top: 1em;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div {
+    width: 100%;
+}
+
+*{box-sizing: border-box;}
+
+/************************************* HEADER******************************/
+
+#logo-container {
+    background-color: black;
+    padding-left: 0.5em;
+}
+
+#logo {
+    text-align: left;
+    padding: 30px;
+    max-width: 15%;
+
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+#corso {
+    text-align: center;
+    background-image: url(../images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 13em;
+    padding-bottom: 10em;
+    height: 700px;
+
+}
+
+button[type="submit"]{
+    margin: 20px;
+    padding: 0.8em 2em;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #f04c2f;
+    border: 0px;
+}
+
+button[type="submit"]:hover {
+    color: black;
+    cursor: pointer;
+}
+/************************************* MAIN CONTENT ******************************/
+
+
+#notebook {
+    border-radius: 50%;
+    max-width: 80%;
+    float: left;
+    margin-left: 10em;
+    margin-right: 20em;
+    margin-top: 2em;
+    
+}
+
+#palign {
+    margin-top: 10em;
+    padding-top: 5em;
+}
+
+
+#orange-box {
+   text-align: center;
+   margin-top: 20em;
+   padding-top: 3em;
+   background-color: #e22d0e; 
+   color: white;
+   height: 22em;
+   margin-bottom: 6em;
+}
+
+ h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 1.5;  
+    text-align: center;
+    color: white;
+    margin-top: 0.8em;
+    padding: 0.8em;
+    padding-top: 1.7em;
+}
+
+q {
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+i {
+    font-size: 0.7em;
+}
+/************************************* MAIN CONTENT/SECTION ******************************/
+
+section {
+    text-align: center;
+}
+
+.boxes {                /* perso 2 ore per far combaciare le immagini con i box eeeee.. niente...*/
+    display: inline-block; 
+    vertical-align: top;
+    border: 1px solid #dee1e3;
+    border-radius: 1%;
+    height: 25em;
+    width: 100%; 
+    max-width: 30%;
+    margin: 0;
+}
+
+.boxes img {
+    max-width: 100%;
+    height: 300px;
+}
+
+.boxes p {
+    padding: 0.6em;
+    margin: 0;
+}
+
+/************************************* FOOTER ******************************/
+
+footer {
+    margin-top: 10em;
+    background-color: #25a2c3;
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7em;
+    font-weight: bold;
+    line-height: 1.5;  
+    text-align: center;
+    color: white;
+    padding: 0.8em;
+}
+
+hr {
+    width: 15em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+span {
+    display: block;
+    color: #c8e7f0;
+}
+
+span a {
+    color: #c8e7f0;
+}
+
+#margin-span1 {
+    margin-right: 4.7em;
+}                                   /* modo "barbaro" per centrare le scritte... :(
+                                      almeno ci ho provato... */
+
+#margin-span2 {
+    margin-right: 7.6em;
+}
